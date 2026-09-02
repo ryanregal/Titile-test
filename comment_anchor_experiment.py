@@ -4,7 +4,7 @@ def build_message():
     prefix = "hello"
     suffix = "world"
     separator = " "
-    target = "before"
+    target = "after"
     message = prefix + separator + suffix
     return f"{message}: {target}"
 
