@@ -3,4 +3,5 @@ def normalize_name(name):
 
 
 def greet(name):
-    return f"Hello, {normalize_name(name)}"
+    cleaned = normalize_name(name)
+    return f"Hello, {cleaned}"
