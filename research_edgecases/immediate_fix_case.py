@@ -1,5 +1,5 @@
 def is_positive(value):
-    return value > 0
+    return value is not None and value > 0
 
 
 def describe(value):
