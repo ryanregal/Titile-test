@@ -1,5 +1,6 @@
 review span experiment
 anchor line A
 stable middle line
+new line introduced by commit B
 future line for B
 end
