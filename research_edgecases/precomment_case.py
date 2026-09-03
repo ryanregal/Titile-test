@@ -1,5 +1,5 @@
 def normalize_name(name):
-    return name.strip()
+    return name.strip().title()
 
 
 def greet(name):
