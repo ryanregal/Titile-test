@@ -1,0 +1,10 @@
+def calculate_total(values):
+    total = 0
+    for value in values:
+        total += int(value)
+    return total
+
+
+def format_total(values):
+    result = calculate_total(values)
+    return f"Calculated total: {result}"
