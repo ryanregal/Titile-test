@@ -3,4 +3,5 @@ def apply_discount(price, discount):
 
 
 def checkout_total(prices, discount):
-    return sum(apply_discount(p, discount) for p in prices)
+    discounted = [apply_discount(p, discount) for p in prices]
+    return sum(discounted)
